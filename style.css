@@ -12,22 +12,30 @@ table{
     th{
     background-color: rgb(228, 224, 224);
     }
+    body{
+        background-color: rgba(209, 197, 197, 0.13);
+    }
     
+    header{
+        position: sticky;
+        top: 0;
+    }
+
     .navbar{
     display: flex;
     text-align: center;
-    background-color: rgba(228, 224, 224, 0.473);
+    background-color: rgba(197, 25, 25, 0.473);
     border-radius: 10px;
-    position:sticky;
-    top: 0;
-    }
+    
+}
     .navbar a{
     text-decoration: none;
     padding: 15px;
-    background-color: rgba(228, 224, 224, 0.473);
+    background-color: rgba(172, 23, 23, 0.473);
     color: black;
     border: 1px solid rgba(228, 224, 224, 0.473);
     border-radius: 10px;
+    display: block;
     }
     
     .navbar a:hover{
@@ -38,7 +46,7 @@ table{
     .navgatos{
     display: flex;
     text-align: center;
-    background-color: rgba(228, 224, 224, 0.473);
+    background-color: rgba(172, 34, 34, 0.473);
     margin: 0;
     padding: 0;
     border-radius: 10px;
@@ -46,7 +54,7 @@ table{
     .navgatos a{
     text-decoration: none;
     padding: 15px;
-    background-color: rgba(228, 224, 224, 0.473);
+    background-color: rgba(197, 41, 41, 0.473);
     color: black;
     border: 1px solid rgba(228, 224, 224, 0.473);
     border-radius: 10px;
